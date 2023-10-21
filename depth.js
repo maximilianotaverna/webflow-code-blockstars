@@ -3,12 +3,12 @@
 
 const userData = {
   picture:
-    "https://cdn-icons-png.flaticon.com/512/3845/3845872.png",
+    "https://cdn-icons-png.flaticon.com/512/10621/10621305.png",
   depth: 44,
   backwards: false,
   animation: false,
   wireframe: true,
-  zoom: 800,
+  zoom: 500,
   resolution: 16,
   precision: 4, // dont worry about this
 };
