@@ -1,4 +1,5 @@
 // These images tend to work https://www.flaticon.com/free-icon/honeycomb_10632767
+// color black is subtracted - so black images wont work
 
 const userData = {
   picture:
@@ -8,7 +9,7 @@ const userData = {
   animation: false,
   wireframe: true,
   resolution: 16,
-  precision: 4, // Set your desired precision here
+  precision: 4, // dont worry about this
 };
 
 const canvas = document.getElementById("scene");
