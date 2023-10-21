@@ -1,5 +1,4 @@
 // These images tend to work https://www.flaticon.com/free-icon/honeycomb_10632767
-// color black is subtracted - so black images wont work
 
 const userData = {
   picture:
@@ -14,7 +13,7 @@ const userData = {
 };
 
 const canvas = document.getElementById("scene");
-const renderer = new THREE.WebGLRenderer({ canvas });
+const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
   50,
