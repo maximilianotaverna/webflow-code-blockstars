@@ -3,11 +3,12 @@
 
 const userData = {
   picture:
-    "https://cdn-icons-png.flaticon.com/512/10621/10621305.png",
+    "https://cdn-icons-png.flaticon.com/512/3845/3845872.png",
   depth: 44,
   backwards: false,
   animation: false,
   wireframe: true,
+  zoom: 800,
   resolution: 16,
   precision: 4, // dont worry about this
 };
@@ -35,7 +36,7 @@ init();
 
 function init() {
   renderer.setSize(window.innerWidth, window.innerHeight);
-  camera.position.set(0, 0, 500);
+  camera.position.set(0, 0, userData.zoom);
   scene.add(camera);
 
   loadImage();
