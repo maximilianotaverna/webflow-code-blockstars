@@ -1,6 +1,6 @@
 // These images tend to work https://www.flaticon.com/free-icon/honeycomb_10632767
 
-const userData = {
+let userData = {
   picture:
     "https://cdn-icons-png.flaticon.com/512/10621/10621305.png",
   depth: 44,
