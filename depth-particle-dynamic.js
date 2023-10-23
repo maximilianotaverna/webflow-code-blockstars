@@ -1,3 +1,52 @@
+// Usage Example:
+// 
+// <script>
+//  let sceneDataArray = [
+//   {
+//     canvasId: "scene1",
+//     userData: {
+//       zoom: 500,
+//       resolution: 8,
+//       precision: 4,
+//       picture: "https://cdn-icons-png.flaticon.com/512/5226/5226345.png",
+//       backwards: false,
+//       depth: 11,
+//       animation: true,
+//       wireframe: true,
+//     },
+//   },
+//   {
+//     canvasId: "scene2",
+//     userData: {
+//       zoom: 800,
+//       resolution: 10,
+//       precision: 4,
+//       picture: "https://cdn-icons-png.flaticon.com/512/5226/5226345.png",
+//       backwards: false,
+//       depth: 40,
+//       animation: false,
+//       wireframe: true,
+//     },
+//   },
+//   {
+//     canvasId: "scene3",
+//     userData: {
+//       zoom: 800,
+//       resolution: 10,
+//       precision: 4,
+//       picture: "https://cdn-icons-png.flaticon.com/512/5226/5226345.png",
+//       backwards: false,
+//       depth: 40,
+//       animation: false,
+//       wireframe: true,
+//     },
+//   },
+// ];
+// </script>
+// <canvas id="scene1"></canvas>
+// <canvas id="scene2"></canvas>
+// <canvas id="scene3"></canvas>
+
 function createScene(canvasId, userData) {
   const canvas = document.getElementById(canvasId);
   const renderer = new THREE.WebGLRenderer({ canvas, alpha: true });
